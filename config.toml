@@ -1,0 +1,36 @@
+baseURL = "http://example.org/"
+languageCode = "en-gb"
+title = "David Al-Kanani Profile"
+theme = "hugo-resume"
+publishDir = "docs"
+
+[params]
+    firstName = "David"
+    lastName = "Al-Kanani"
+    # profileImage = "img/me.png"
+    email = "david.alkanani@gmail.com"
+    description = "Profile for David Al-Kanani"
+    # favicon = "images/favicon.ico"
+
+    # what sections to display.  Setting to false disables navigation and section.
+    showSkills = false
+    showProjects = false
+    showOpenSource = false
+    showPublications = false
+    showExperience = false
+    showEducation = false
+    showQr = false
+
+    # do you want to show git hash on page footer and link to repo? Add commit URl for repo here.
+    gitCommitPrefix = "https://github.com/YOURNAME/REPONAME/commit/"
+
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/davidalk/"
+
+[params.google.analytics]
+    trackerID = "xxx"
+
+[outputs] #only required for search
+    home = ["HTML", "JSON"]
