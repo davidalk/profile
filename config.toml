@@ -1,4 +1,4 @@
-baseURL = "https://davidalk.github.io/profile/"
+baseURL = "./"
 languageCode = "en-gb"
 title = "David Al-Kanani Profile"
 theme = "hugo-resume"
