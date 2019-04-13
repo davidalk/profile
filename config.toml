@@ -11,7 +11,7 @@ publishDir = "docs"
     profileImage = "img/profile.jpeg"
     email = "david.alkanani@gmail.com"
     description = "Profile for David Al-Kanani"
-    # favicon = "images/favicon.ico"
+    favicon = "favicon.ico"
 
     # what sections to display.  Setting to false disables navigation and section.
     showSkills = true
