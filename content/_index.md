@@ -5,4 +5,4 @@ draft: false
 ---
 Welcome to my profile page!
 
-Site genreted with [Hugo](https://gohugo.io/), using the [hugo-resume](https://themes.gohugo.io/hugo-resume/) theme.
+Site generated with [Hugo](https://gohugo.io/), using the [hugo-resume](https://themes.gohugo.io/hugo-resume/) theme.
