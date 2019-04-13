@@ -1,11 +1,11 @@
 [
     {
-        "grouping": "",
-        "skills": []
-    },
-    {
         "grouping": "Web",
         "skills": ["JavaScript", "TypeScript", "Angular", "REACT", "D3", "ag-grid", "SASS", "CSS3", "HTML5"]
+    },
+    {
+        "grouping": "Platforms & Infrastructure",
+        "skills": ["Amazon AWS", "Linux", "NodeJS", "Jetty", "NginX", "Docker"]
     },
     {
         "grouping": "Java",
@@ -21,7 +21,7 @@
     },
     {
         "grouping": "Methodologies",
-        "skills": ["XP", "Agile", "Waterfall", "TDD", "BDD"]
+        "skills": ["XP", "Scrum", "Kanban", "TDD", "BDD"]
     },
     {
         "grouping": "Further Learning Projects and Courses",
