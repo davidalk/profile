@@ -14,7 +14,7 @@ publishDir = "docs"
     # favicon = "images/favicon.ico"
 
     # what sections to display.  Setting to false disables navigation and section.
-    showSkills = false
+    showSkills = true
     showProjects = false
     showOpenSource = false
     showPublications = false

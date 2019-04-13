@@ -1,0 +1,35 @@
+[
+    {
+        "grouping": "",
+        "skills": []
+    },
+    {
+        "grouping": "Web",
+        "skills": ["JavaScript", "TypeScript", "Angular", "REACT", "D3", "ag-grid", "SASS", "CSS3", "HTML5"]
+    },
+    {
+        "grouping": "Java",
+        "skills": ["JDBC", "Spring", "Concurrency", "JMS", "JUNIT", "Mockito", "Maven"]
+    },
+    {
+        "grouping": "SCM & Code Quality",
+        "skills": ["Git", "Subversion", "Crucible", "JIRA"]
+    },    
+    {
+        "grouping": "Continuous integration",
+        "skills": ["TeamCity", "Jenkins", "Travis"]
+    },
+    {
+        "grouping": "Methodologies",
+        "skills": ["XP", "Agile", "Waterfall", "TDD", "BDD"]
+    },
+    {
+        "grouping": "Further Learning Projects and Courses",
+        "skills": [
+            "Stanford Online Algorithms 1 & 2 courses", 
+            "Participant in Google Code Jam", 
+            "Coursera Functional Programming in Scala",
+            "Participate in Unruly Haskell study group"
+        ]
+    }
+]
