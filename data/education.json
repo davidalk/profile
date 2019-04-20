@@ -1,0 +1,19 @@
+[
+    {
+        "school":"Northumbria University",
+        "degree":"Master of Science",
+        "major":"Applied Computing Technologies",
+        "notes":[
+            "An advanced computing course for technology graduates.",  
+            "Dissertation involved an investigation into the viability of data communication through covert channels.  The study involved the creation and implementation of sender and receiver applications.  These applications communicated through a firewall using a covert channel, thereby bypassing traditional network security without detection."
+        ],
+        "range":"2002 - 2003"
+    },
+    {
+        "school":"Sussex University",
+        "degree":"Bachelor of Arts",
+        "major":"Artificial Intelligence",
+        "notes":["Graduated with 2:2 honours"],
+        "range":"1999 - 2002"
+    }
+]

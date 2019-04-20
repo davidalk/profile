@@ -19,7 +19,7 @@ publishDir = "docs"
     showOpenSource = false
     showPublications = false
     showExperience = false
-    showEducation = false
+    showEducation = true
     showQr = false
 
     # do you want to show git hash on page footer and link to repo? Add commit URl for repo here.
