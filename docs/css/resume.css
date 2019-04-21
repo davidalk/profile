@@ -118,6 +118,12 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
+section.resume-section .resume-item .resume-bullet-list {
+  list-style: square;
+  padding-left: 1.2em; 
+  margin-left: 0; 
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
