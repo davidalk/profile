@@ -1,6 +1,6 @@
 # David Al-Kanani Profile Website
 
-This is a website generator project for my personal profile website. This generator uses [Hugo](https://gohugo.io/) with the [hugot-resume](https://themes.gohugo.io/hugo-resume/) theme.
+This is a website generator project for my personal profile website. This generator uses [Hugo](https://gohugo.io/) with the [hugo-resume](https://themes.gohugo.io/hugo-resume/) theme.
 
 ## Project Setup
 Clone this repo as you normally would and then update the submodule as follows:
