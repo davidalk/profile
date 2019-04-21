@@ -1,4 +1,4 @@
-baseURL = "https://alkanani.co.uk/"
+baseURL = "https://alkanani.dev/"
 languageCode = "en-gb"
 title = "David Al-Kanani Profile"
 theme = "hugo-resume"
