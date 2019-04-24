@@ -14,6 +14,9 @@ Follow instructions in the [Hugo Quick Start](https://gohugo.io/getting-started/
 Start server using `hugo server -D` to run in draft mode.
 
 ## Deploy
-Project is served using Github pages.
-- Run `hugo` which will build changes into docs folder.
-- Commit and push docs to update on Github pages.
+Project is served using Github Pages. The generated content is placed in the `docs` folder under the project root which Github Pages will watch and automatically publish when updated.
+
+To deploy execute the following from the project root:
+```bash
+./deploy.sh
+```
