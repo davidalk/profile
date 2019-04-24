@@ -30,6 +30,10 @@ publishDir = "docs"
     name = "GitHub"
     link = "https://github.com/davidalk/"
 
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/david-al-kanani-48aa73/"
+
 [params.google.analytics]
     trackerID = "xxx"
 
