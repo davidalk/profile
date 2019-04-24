@@ -5,11 +5,11 @@
     },
     {
         "grouping": "Platforms & Infrastructure",
-        "skills": ["Amazon AWS", "Linux", "NodeJS", "Jetty", "NginX", "Docker"]
+        "skills": ["Amazon AWS", "Terraform", "Linux", "NodeJS", "Jetty", "NginX", "Docker"]
     },
     {
         "grouping": "Java",
-        "skills": ["JDBC", "Spring", "Concurrency", "JMS", "JUNIT", "Mockito", "Maven"]
+        "skills": ["JUNIT", "Mockito", "Spring", "Concurrency", "JDBC", "JMS", "Maven"]
     },
     {
         "grouping": "SCM & Code Quality",
@@ -22,6 +22,10 @@
     {
         "grouping": "Methodologies",
         "skills": ["XP", "Scrum", "Kanban", "TDD", "BDD"]
+    },
+    {
+        "grouping": "Secondary Languages",
+        "skills": ["Python", "SQL", "Bash"]
     },
     {
         "grouping": "Further Learning Projects and Courses",
