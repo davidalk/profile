@@ -5,7 +5,7 @@ draft: false
 ---
 Hello and welcome to my profile page! My names David and I'm currently a senior developer working at Unruly a video ad tech company. 
 
-I've been developing professionally since I left university in 2004 but I have been passionate about programming and experimenting with technology since I was a young child, well since my parents purchased a Basic programming book when I was 8 years old so I could try stuff out on the computers at school!
+I've been developing professionally since I left university in 2004 but I have been passionate about programming and experimenting with technology since I was a young child; well since my parents purchased a Basic programming book when I was 8 years old so I could try stuff out on the computers at school!
 
 I have a broad range of experience across both front end web technologies and back end systems having moved my focus between different parts of the stack in my career. I like to think that I can get up to speed quickly and start adding value in most tech stacks.
 
