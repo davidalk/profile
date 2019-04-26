@@ -13,4 +13,4 @@ I also take a keen interest in the infrastructure that we run our software on as
 
 The aspect of software development that fulfills me the most is that I'm constantly learning. Outside of the technologies I use daily to ship our products I have been improving my functional programming theory by starting to learn Haskell as a member of the Haskell study group at work. I regularly experiment with new languages and development techniques and this has helped me to be a better developer and furthermore able to coach others when they need assistance.
 
-This site generated with [Hugo](https://gohugo.io/), using the [hugo-resume](https://themes.gohugo.io/hugo-resume/) theme.
+This site was generated with [Hugo](https://gohugo.io/), using the [hugo-resume](https://themes.gohugo.io/hugo-resume/) theme.
