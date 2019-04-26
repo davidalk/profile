@@ -3,7 +3,7 @@ title: "David Al-Kanani"
 date: 2019-04-07T18:59:43+01:00
 draft: false
 ---
-Hello and welcome to my profile page! My names David and I'm currently a senior developer working at Unruly a video ad tech company. 
+Hello and welcome to my profile page! My name's David and I'm currently a senior developer working at Unruly a video ad tech company. 
 
 I've been developing professionally since I left university in 2004 but I have been passionate about programming and experimenting with technology since I was a young child; well since my parents purchased a Basic programming book when I was 8 years old so I could try stuff out on the computers at school!
 
