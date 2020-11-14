@@ -4,8 +4,8 @@
         "company":"Regnosys, London",
         "summary":"Regnosys is a fintech who's goal is to build tooling that encourages the unification of the industry's various financial models.",
         "notes": [
-            "Building new features for the Rosetta Core Editor which is a DSL editor built with an Angular front end and Java back end. The UI is based around the Monaco editor and allows users to edit custom domain models for use within financial regulation.",
-            "Tasks include building a dynamic visualisation tool that allows users to visualise financial instruments that they have written in the DSL, sending that DSL to the back end to build a graph structure of related nodes and then returning those nodes to the front end for rendering. I worked font to back on this project.",
+            "Tasks include Building new features for the Rosetta Core Editor which is a DSL editor built with an Angular front end and Java back end. The UI is based around the Monaco editor and allows users to edit custom domain models for use within financial regulation.",
+            "Building a dynamic visualisation tool that allows users to visualise financial instruments that they have written in the DSL, sending that DSL to the back end to build a graph structure of related nodes and then returning those nodes to the front end for rendering. I worked font to back on this project.",
             "Worked on a large refactor of the applications ingestion engine that allows users to input financial data in one format and map that to another format, reporting back any mapping or validation errors; a project which also involved front to back work. On the back end I redesigned the ingestion process to increase flexibility and testability. And on the front end myself and a colleague refreshed the UI to give it a more modernised feel as well as bringing in NGRX to handle the complex state management that was needed.",
             "Introduced an end to end testing pipeline built from scratch in Protractor and executed within Codefresh. This pipeline greatly increased deploy confidence after a period of post deployment instability."
         ],
