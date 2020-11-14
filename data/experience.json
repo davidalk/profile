@@ -1,5 +1,17 @@
 [
     {
+        "role":"Senior Engineer",
+        "company":"Regnosys, London",
+        "summary":"Regnosys is a fintech who's goal is to build tooling that encourage the unification of the various financial models.",
+        "notes": [
+            "Building new features for the Rosetta Core Editor which is a DSL editor built with an Angular front end and Java back end. The UI is based around the Monaco editor and allows users to edit custom domain models for use within financial regulation.",
+            "Tasks include building a dynamic visualisation tool that allows users to visualise financial instruments that they have written in the DSL, sending that DSL to the back end to build a graph structure of related nodes and then returning those nodes to the front end for rendering. I worked font to back on this project.",
+            "Worked on a large refactor of the applications ingestion engine that allows users to input financial data in one format and map that to another format, reporting back any mapping or validation errors; a project which also involved front to back work. On the back end I redesigned the ingestion process to increase flexibility and testability. And on the front end myself and a colleague refreshed the UI to give it a more modernised feel as well as bringing in NGRX to handle the complex state management that was needed.",
+            "Introduced an end to end testing pipeline built from scratch in Protractor and executed within Codefresh. This pipeline greatly increased deploy confidence after a period of post deployment instability."
+        ],
+        "range":"September 2019 - Present"
+    },
+    {
         "role":"Senior Developer",
         "company":"Unruly, London",
         "summary":"Unruly is an Ad Tech company with a focus on video advertising. The product consists of an exchange which connects demand partners (advertisers) to suppliers (publishers) with the aim of maximising revenue for the publishers whilst also providing innovative solutions to buyers to be able to target their desired audience and run their campaign effectively.",
@@ -13,7 +25,7 @@
             "As well as the team rotations I have also worked on ad-hoc feature teams, one of which was tasked with building a UI to allow operations users to interact with a custom DSL for managing domain information. This project was built in the latest version of REACT using a customised Monaco Editor to offer syntax highlighting and error reporting to the user.",
             "Started up and facilitated the architecture guild which is an initiative to allow interested parties to get together and raise issues and bring about change across Unruly architecture. One initiative that came out of this was the creation of a playground AWS account to give people the confidence to experiment without harming any production infrastructure."
         ],
-        "range":"December 2017 - Present"
+        "range":"December 2017 - September 2019"
     },
     {
         "role":"Senior Developer / Tech Lead – CROIT Credit Risk Dashboard",
@@ -27,7 +39,7 @@
             "Currently investigating moving Hydra to a framework agnostic Web Components compliant structure either through the use of a light framework such as Polymer or just vanilla JS plus pollyfills.",
             "Built visualizations using D3 such as a heat map to allow drill down of risk via various measures such as country and counterparty.",
             "Running daily catch up meetings, organising tasks in JIRA, assisting developers when required and communicating the design strategy to members of the work stream.",
-            "Organised hiring and carried out interviews to build up the GCCO development stream. Also made multiple onsite visits to the Poland office to carry out knowledge sharing and workshop exercises."
+            "Organised hiring and carried out interviews to build up the GCCO development stream. Also made multiple on site visits to the Poland office to carry out knowledge sharing and workshop exercises."
         ],
         "range":"January 2016 - December 2017"
     },

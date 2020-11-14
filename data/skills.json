@@ -1,11 +1,11 @@
 [
     {
         "grouping": "Web",
-        "skills": ["JavaScript", "TypeScript", "Angular", "REACT", "D3", "ag-grid", "SASS", "CSS3", "HTML5"]
+        "skills": ["JavaScript", "TypeScript", "Angular", "REACT", "D3", "ag-grid", "SASS", "CSS3", "HTML5", "Monaco"]
     },
     {
         "grouping": "Platforms & Infrastructure",
-        "skills": ["Amazon AWS", "Terraform", "Linux", "NodeJS", "Jetty", "NginX", "Docker"]
+        "skills": ["Amazon AWS", "Google Cloud", "Terraform", "Linux", "NodeJS", "Jetty", "NginX", "Docker", "Kubernetes"]
     },
     {
         "grouping": "Java",
@@ -17,7 +17,7 @@
     },    
     {
         "grouping": "Continuous integration",
-        "skills": ["TeamCity", "Jenkins", "Travis"]
+        "skills": ["TeamCity", "Codefresh", "Jenkins", "Travis"]
     },
     {
         "grouping": "Methodologies",
@@ -25,7 +25,7 @@
     },
     {
         "grouping": "Secondary Languages",
-        "skills": ["Python", "SQL", "Bash"]
+        "skills": ["Python", "SQL", "Shell Scripting"]
     },
     {
         "grouping": "Further Learning Projects and Courses",
