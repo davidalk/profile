@@ -1,102 +1,104 @@
 [
-    {
-        "role":"Senior Engineer",
-        "company":"Regnosys, London",
-        "summary":"Regnosys is a fintech whose goal is to build tooling that encourages the unification of the industry's various financial models.",
-        "notes": [
-            "Tasks include Building new features for the Rosetta Core Editor which is a DSL editor built with an Angular front end and Java back end. The UI is based around the Monaco editor and allows users to edit custom domain models for use within financial regulation.",
-            "Building a dynamic visualisation tool that allows users to visualise financial instruments that they have written in the DSL, sending that DSL to the back end to build a graph structure of related nodes and then returning those nodes to the front end for rendering. I worked font to back on this project.",
-            "Worked on a large refactor of the applications ingestion engine that allows users to input financial data in one format and map that to another format, reporting back any mapping or validation errors; a project which also involved front to back work. On the back end I redesigned the ingestion process to increase flexibility and testability. And on the front end myself and a colleague refreshed the UI to give it a more modernised feel as well as bringing in NGRX to handle the complex state management that was needed.",
-            "Introduced an end to end testing pipeline built from scratch in Protractor and executed within Codefresh. This pipeline greatly increased deploy confidence after a period of post deployment instability."
-        ],
-        "range":"September 2019 - Present"
-    },
-    {
-        "role":"Senior Developer",
-        "company":"Unruly, London",
-        "summary":"Unruly is an Ad Tech company with a focus on video advertising. The product consists of an exchange which connects demand partners (advertisers) to suppliers (publishers) with the aim of maximising revenue for the publishers whilst also providing innovative solutions to buyers to be able to target their desired audience and run their campaign effectively.",
-        "notes":[
-            "Unruly is a strong adherent to XP agile principles and is very committed to delivering value in the thinnest achievable  slice possible to provide the quickest feedback to everyone involved.",
-            "Unruly product development has a very open and collaborative culture. For example all work that is committed to production is worked on as a pair, regular tech talks workshops and study groups are held and as a senior developer you are given plenty of opportunity to train more junior team members.",
-            "Worked across a number of teams but spent the largest amount of time working on the Ad Spaces team which is focused on delivery of the JavaScript Ad Unit on to the publishers page in as low a bundle size and as performant a manner as possible.",
-            "Was tech lead for the Google AMP project which was successful in adding AMP video advertising feature to our product offering opening up a completely new revenue stream. As well as the technical challenges this work also involved collaborating with the Google AMP maintainers to get our integration PR released.",
-            "Tech lead for project to migrate our Java based User Syncing service from physical EC2 servers to an ECS container infrastructure. This service handles request volumes upwards of 50 million of requests per day. This was a particularly challenging and interesting project as it required keeping the current infrastructure working during switch over to the new infrastructure, whilst slowly exposing it to more traffic. The new service also had to scale out and in as traffic patterns change across the day and handle sudden traffic spikes. Additionally made use of some interesting technologies such as Java 11 and RX Java which was used to provide a buffered and batched stream of metrics from the service to CloudWatch.",
-            "Whilst the largest chunk of my time has been spent in the Ad Spaces teams I have also rotated into most of the other teams, with the longest rotation working on the exchange. This was a great opportunity to refresh my Java skills working on a distributed server side exchange in a functional paradigm using Java 8.",
-            "As well as the team rotations I have also worked on ad-hoc feature teams, one of which was tasked with building a UI to allow operations users to interact with a custom DSL for managing domain information. This project was built in the latest version of REACT using a customised Monaco Editor to offer syntax highlighting and error reporting to the user.",
-            "Started up and facilitated the architecture guild which is an initiative to allow interested parties to get together and raise issues and bring about change across Unruly architecture. One initiative that came out of this was the creation of a playground AWS account to give people the confidence to experiment without harming any production infrastructure."
-        ],
-        "range":"December 2017 - September 2019"
-    },
-    {
-        "role":"Senior Developer / Tech Lead – CROIT Credit Risk Dashboard",
-        "company":"Credit Suisse, London",
-        "summary":"The Credit Risk Dashboard is a greenfield reporting application with an HTML5/Angular presentation layer, high throughput Java middle layer and Oracle DB.",
-        "notes":[
-            "Joined the team to lead and build the GCCO UI work stream which would take a risk exposure reporting application from inception to production. GCCO (Global Chief Credit Officer) is one of a number of applications that make up the Credit Risk Dashboard.",
-            "Promoted to Vice President in recognition for work in getting the GCCO stream off the ground as well as for contributions in previous roles.",
-            "Built a range of different components in both Angular 1.5, JavaScript, TypeScript, SASS, CSS3 and TypeScript. Common components include tabular data grids which display a range of slices on exposure data. Required to utilise a number of techniques to manage the browser memory footprint and maintain UI responsiveness; techniques such as web workers, memory profiling, client side caching.",
-            "Worked on Hydra, a reusable component library which contained items such as configurable search, AG- Grid wrapper functionality, themed navigation bar, date picker and combo box. These libraries exist as a self-contained component application with its own user guide and visual component acceptance tests. The library is packaged and distributed on the Credit Suisse internal Artifactory repository to be used by the various different dashboard applications.",
-            "Currently investigating moving Hydra to a framework agnostic Web Components compliant structure either through the use of a light framework such as Polymer or just vanilla JS plus pollyfills.",
-            "Built visualizations using D3 such as a heat map to allow drill down of risk via various measures such as country and counterparty.",
-            "Running daily catch up meetings, organising tasks in JIRA, assisting developers when required and communicating the design strategy to members of the work stream.",
-            "Organised hiring and carried out interviews to build up the GCCO development stream. Also made multiple on site visits to the Poland office to carry out knowledge sharing and workshop exercises."
-        ],
-        "range":"January 2016 - December 2017"
-    },
-    {
-        "role":"Senior Developer / Tech Lead – CROIT Credit Approvals",
-        "company":"Credit Suisse, London",
-        "summary":"The Credit Approvals application manages approvals for trading limit and ratings change requests. Consisting of a Hibernate data layer, Java based rules engine for calculating approval levels and aggregation layer that feeds the calculation engine. The UI handles approval requests and their corresponding workflow and is built on Spring MVC, JSP and a mixture of JS technologies.",
-        "notes":[
-            "Joined the team to work on a large scale project to migrate approval calculations from a legacy set of stored procedures to a Java based replacement. Delivered on time and within budget providing the business with a platform that was cheaper to maintain and extend.",
-            "Worked on the analysis and build of the normal approval stream, which contains the default approval calculations, triggers, aggregations and workflow. Also worked on various streams which provided an extension of the normal rules for each region.",
-            "Other tasks include building an memory DB test used for integration tests, as well as production of architecture and design documentation.",
-            "Carried out POC to bring Scala in to the code base with particular focus on replacing the applications aggregation layer.",
-            "Responsible for screening, interviewing and hiring new technical team members. Frequently visited Poland site to build up the development team and work on collaborative design workshops."
-        ],
-        "range":"August 2014 - January 2016"
-    },
-    {
-        "role":"Senior Developer / Tech Lead – CROIT Credit Risk Reporting",
-        "company":"Credit Suisse, London",
-        "summary":"CRIS application consists of a Java based reporting, workflow and adjustments GUI. The Java application layer sits on top of a Sybase operational data store and an Oracle data warehouse.",
-        "notes":[
-            "Major projects include building a replacement to a legacy DB-to-DB messaging system with a Java messaging system, based on Spring Integration and JMS. This project delivered improved performance and robustness over the previous solution. Rebuilt the middle, data and presentation tiers utilising Spring MVC as a replacement to Struts. The project also introduced automated builds in TeamCity and automatic publication of artefacts such as test coverage and check style reports to enforce good coding practice.",
-            "Production of architecture and design documents for the purpose of project proposals, outlining the technical specification to the developers, training up of new team members.",
-            "Member of Credit Suisse developer study group where I recently successfully completed Functional Programming in Scala and the Stanford Algorithms part I Coursera course.",
-            "Working with management to assist with screening, interviewing and hiring new team members. Visited offshore sites to carry out practical training and orientation of team members in India and Switzerland."
-        ],
-        "range":"May 2011 - August 2014"
-    },
-    {
-        "role":"Delivery Lead – PCIT Opera & Finance Gateway",
-        "company":"Credit Suisse, London",
-        "summary":"The Opera Load team develops feeds that transport trade and accounting event data into and out of the Finance hub. The technology stack consists of Oracle/Sybase stored procedures, Unix Scripts, & Informatica.",
-        "notes":["Worked on project to build a central finance gateway as a replacement to Opera. Lead POC team on Gateway to demonstrate tasks such as Java file watching and Java integration with Informatica. "],
-        "range":"May 2009 - May 2011"
-    },
-    {
-        "role":"Application Manager",
-        "company":"Cantor Fitzgerald, London",
-        "summary":"The application management team was a front office team covering the Cantor Index, Cantor CFD and Cantor FX areas of the business. The team’s responsibilities included development, support, release management and overseeing the QA environments.",
-        "notes": [
-            "Gained extensive product knowledge of CFD, equities, commodities, FX and futures. ",
-            "Assisted traders with issues that may arise with the trade capture system and various pricing systems. Also worked with the client services desk to resolve issues with the external trading platform.",
-            "Developed relationships with third party providers such as Experian, Secure Trading, Reuters, FX trading platform providers (Currenex & Autobahn) and equity dividend provider (Markit).",
-            "Projects included the re-writing of the client account application website using Struts/JSP and updating Java based business logic to comply with more stringent regulation."
-        ],
-        "range":"July 2007 - May 2009"
-    },
-    {
-        "role":"Analyst Developer",
-        "company":"Credit Suisse, London",
-        "summary":"Working on FO/BO trade reconciliation and trade revenue reporting applications within Product Control IT.",
-        "range":"September 2005 - July 2007"
-    },
-    {
-        "role":"Associate IT Support Engineer",
-        "company":"GlobeOp, London",
-        "summary":"Working on the Reuters Kondor+ system, supporting both internal operations and external hedge fund clients.",
-        "range":"March 2004 - September 2005"
-    }
+  {
+    "role": "Senior Engineer",
+    "company": "Regnosys, London",
+    "summary": "Regnosys is a fintech whose goal is to build tooling that encourages the unification of the industry's various financial models.",
+    "notes": [
+      "Tasks include Building new features for the Rosetta Core Editor which is a DSL editor built with an Angular front end and Java back end. The UI is based around the Monaco editor and allows users to edit custom domain models, using the Rosetta modelling language, for use within financial regulation.",
+      "Building a dynamic visualisation tool that allows users to visualise financial instruments that they have written in the Rosetta modelling language, sending that model to the back end to build a graph structure of related nodes and then returning those nodes to the front end for rendering. I worked font to back on this project.",
+      "Worked on a large scale back end project to decouple our DSL code generator from our model versions in a stand alone OS process. This project allowed us to link specific versions of our DSL to versions of models thereby negating the need to preserve DSL backward compatibility. A further benefit of this task was that the isolated code generator was more light weight, faster and more flexible to use.",
+      "Worked on a large refactor of the applications ingestion engine that allows users to input financial data in one format and map that to another format, reporting back any mapping or validation errors; a project which also involved front to back work. On the back end I redesigned the ingestion process to increase flexibility and testability. And on the front end myself and a colleague refreshed the UI to give it a more modernised feel as well as bringing in NGRX to handle the complex state management that was needed."
+    ],
+    "range": "September 2019 - Present"
+  },
+  {
+    "role": "Senior Developer",
+    "company": "Unruly, London",
+    "summary": "Unruly is an Ad Tech company with a focus on video advertising. The product consists of an exchange which connects demand partners (advertisers) to suppliers (publishers) with the aim of maximising revenue for the publishers whilst also providing innovative solutions to buyers to be able to target their desired audience and run their campaign effectively.",
+    "notes": [
+      "Unruly is a strong adherent to XP agile principles and is very committed to delivering value in the thinnest achievable  slice possible to provide the quickest feedback to everyone involved.",
+      "Unruly product development has a very open and collaborative culture. For example all work that is committed to production is worked on as a pair, regular tech talks workshops and study groups are held and as a senior developer you are given plenty of opportunity to train more junior team members.",
+      "Worked across a number of teams but spent the largest amount of time working on the Ad Spaces team which is focused on delivery of the JavaScript Ad Unit on to the publishers page in as low a bundle size and as performant a manner as possible.",
+      "Was tech lead for the Google AMP project which was successful in adding AMP video advertising feature to our product offering opening up a completely new revenue stream. As well as the technical challenges this work also involved collaborating with the Google AMP maintainers to get our integration PR released.",
+      "Tech lead for project to migrate our Java based User Syncing service from physical EC2 servers to an ECS container infrastructure. This service handles request volumes upwards of 50 million of requests per day. This was a particularly challenging and interesting project as it required keeping the current infrastructure working during switch over to the new infrastructure, whilst slowly exposing it to more traffic. The new service also had to scale out and in as traffic patterns change across the day and handle sudden traffic spikes. Additionally made use of some interesting technologies such as Java 11 and RX Java which was used to provide a buffered and batched stream of metrics from the service to CloudWatch.",
+      "Whilst the largest chunk of my time has been spent in the Ad Spaces teams I have also rotated into most of the other teams, with the longest rotation working on the exchange. This was a great opportunity to refresh my Java skills working on a distributed server side exchange in a functional paradigm using Java 8.",
+      "As well as the team rotations I have also worked on ad-hoc feature teams, one of which was tasked with building a UI to allow operations users to interact with a custom DSL for managing domain information. This project was built in the latest version of REACT using a customised Monaco Editor to offer syntax highlighting and error reporting to the user.",
+      "Started up and facilitated the architecture guild which is an initiative to allow interested parties to get together and raise issues and bring about change across Unruly architecture. One initiative that came out of this was the creation of a playground AWS account to give people the confidence to experiment without harming any production infrastructure."
+    ],
+    "range": "December 2017 - September 2019"
+  },
+  {
+    "role": "Senior Developer / Tech Lead – CROIT Credit Risk Dashboard",
+    "company": "Credit Suisse, London",
+    "summary": "The Credit Risk Dashboard is a greenfield reporting application with an HTML5/Angular presentation layer, high throughput Java middle layer and Oracle DB.",
+    "notes": [
+      "Joined the team to lead and build the GCCO UI work stream which would take a risk exposure reporting application from inception to production. GCCO (Global Chief Credit Officer) is one of a number of applications that make up the Credit Risk Dashboard.",
+      "Promoted to Vice President in recognition for work in getting the GCCO stream off the ground as well as for contributions in previous roles.",
+      "Built a range of different components in both Angular 1.5, JavaScript, TypeScript, SASS, CSS3 and TypeScript. Common components include tabular data grids which display a range of slices on exposure data. Required to utilise a number of techniques to manage the browser memory footprint and maintain UI responsiveness; techniques such as web workers, memory profiling, client side caching.",
+      "Worked on Hydra, a reusable component library which contained items such as configurable search, AG- Grid wrapper functionality, themed navigation bar, date picker and combo box. These libraries exist as a self-contained component application with its own user guide and visual component acceptance tests. The library is packaged and distributed on the Credit Suisse internal Artifactory repository to be used by the various different dashboard applications.",
+      "Currently investigating moving Hydra to a framework agnostic Web Components compliant structure either through the use of a light framework such as Polymer or just vanilla JS plus pollyfills.",
+      "Built visualizations using D3 such as a heat map to allow drill down of risk via various measures such as country and counterparty.",
+      "Running daily catch up meetings, organising tasks in JIRA, assisting developers when required and communicating the design strategy to members of the work stream.",
+      "Organised hiring and carried out interviews to build up the GCCO development stream. Also made multiple on site visits to the Poland office to carry out knowledge sharing and workshop exercises."
+    ],
+    "range": "January 2016 - December 2017"
+  },
+  {
+    "role": "Senior Developer / Tech Lead – CROIT Credit Approvals",
+    "company": "Credit Suisse, London",
+    "summary": "The Credit Approvals application manages approvals for trading limit and ratings change requests. Consisting of a Hibernate data layer, Java based rules engine for calculating approval levels and aggregation layer that feeds the calculation engine. The UI handles approval requests and their corresponding workflow and is built on Spring MVC, JSP and a mixture of JS technologies.",
+    "notes": [
+      "Joined the team to work on a large scale project to migrate approval calculations from a legacy set of stored procedures to a Java based replacement. Delivered on time and within budget providing the business with a platform that was cheaper to maintain and extend.",
+      "Worked on the analysis and build of the normal approval stream, which contains the default approval calculations, triggers, aggregations and workflow. Also worked on various streams which provided an extension of the normal rules for each region.",
+      "Other tasks include building an memory DB test used for integration tests, as well as production of architecture and design documentation.",
+      "Carried out POC to bring Scala in to the code base with particular focus on replacing the applications aggregation layer.",
+      "Responsible for screening, interviewing and hiring new technical team members. Frequently visited Poland site to build up the development team and work on collaborative design workshops."
+    ],
+    "range": "August 2014 - January 2016"
+  },
+  {
+    "role": "Senior Developer / Tech Lead – CROIT Credit Risk Reporting",
+    "company": "Credit Suisse, London",
+    "summary": "CRIS application consists of a Java based reporting, workflow and adjustments GUI. The Java application layer sits on top of a Sybase operational data store and an Oracle data warehouse.",
+    "notes": [
+      "Major projects include building a replacement to a legacy DB-to-DB messaging system with a Java messaging system, based on Spring Integration and JMS. This project delivered improved performance and robustness over the previous solution. Rebuilt the middle, data and presentation tiers utilising Spring MVC as a replacement to Struts. The project also introduced automated builds in TeamCity and automatic publication of artefacts such as test coverage and check style reports to enforce good coding practice.",
+      "Production of architecture and design documents for the purpose of project proposals, outlining the technical specification to the developers, training up of new team members.",
+      "Member of Credit Suisse developer study group where I recently successfully completed Functional Programming in Scala and the Stanford Algorithms part I Coursera course.",
+      "Working with management to assist with screening, interviewing and hiring new team members. Visited offshore sites to carry out practical training and orientation of team members in India and Switzerland."
+    ],
+    "range": "May 2011 - August 2014"
+  },
+  {
+    "role": "Delivery Lead – PCIT Opera & Finance Gateway",
+    "company": "Credit Suisse, London",
+    "summary": "The Opera Load team develops feeds that transport trade and accounting event data into and out of the Finance hub. The technology stack consists of Oracle/Sybase stored procedures, Unix Scripts, & Informatica.",
+    "notes": [
+      "Worked on project to build a central finance gateway as a replacement to Opera. Lead POC team on Gateway to demonstrate tasks such as Java file watching and Java integration with Informatica. "
+    ],
+    "range": "May 2009 - May 2011"
+  },
+  {
+    "role": "Application Manager",
+    "company": "Cantor Fitzgerald, London",
+    "summary": "The application management team was a front office team covering the Cantor Index, Cantor CFD and Cantor FX areas of the business. The team’s responsibilities included development, support, release management and overseeing the QA environments.",
+    "notes": [
+      "Gained extensive product knowledge of CFD, equities, commodities, FX and futures. ",
+      "Assisted traders with issues that may arise with the trade capture system and various pricing systems. Also worked with the client services desk to resolve issues with the external trading platform.",
+      "Developed relationships with third party providers such as Experian, Secure Trading, Reuters, FX trading platform providers (Currenex & Autobahn) and equity dividend provider (Markit).",
+      "Projects included the re-writing of the client account application website using Struts/JSP and updating Java based business logic to comply with more stringent regulation."
+    ],
+    "range": "July 2007 - May 2009"
+  },
+  {
+    "role": "Analyst Developer",
+    "company": "Credit Suisse, London",
+    "summary": "Working on FO/BO trade reconciliation and trade revenue reporting applications within Product Control IT.",
+    "range": "September 2005 - July 2007"
+  },
+  {
+    "role": "Associate IT Support Engineer",
+    "company": "GlobeOp, London",
+    "summary": "Working on the Reuters Kondor+ system, supporting both internal operations and external hedge fund clients.",
+    "range": "March 2004 - September 2005"
+  }
 ]
