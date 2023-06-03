@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://alkanani.dev/</loc>
     <lastmod>2019-04-07T18:59:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alkanani.dev/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://alkanani.dev/tags/</loc>
   </url>
-  
 </urlset>
