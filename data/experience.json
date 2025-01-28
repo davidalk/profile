@@ -2,12 +2,12 @@
   {
     "role": "Senior Engineer",
     "company": "Regnosys, London",
-    "summary": "Regnosys is a fintech whose goal is to build tooling that encourages the unification of the industry's various financial models.",
+    "summary": "Regnosys is a fintech company focused on building tools to unify the industry’s diverse financial models.",
     "notes": [
-      "Tasks include Building new features for the Rosetta Core Editor which is a DSL editor built with an Angular front end and Java back end. The UI is based around the Monaco editor and allows users to edit custom domain models, using the Rosetta modelling language, for use within financial regulation.",
-      "Worked on a large scale back end project to decouple our DSL code generator from our model versions in a stand alone OS process. This project allowed us to link specific versions of our DSL to versions of models thereby negating the need to preserve DSL backward compatibility. A further benefit of this task was that the isolated code generator was more light weight, faster and more flexible to use.",
-      "Building a dynamic visualisation tool that allows users to visualise financial instruments that they have written in the Rosetta modelling language, sending that model to the back end to build a graph structure of related nodes and then returning those nodes to the front end for rendering. I worked font to back on this project.",
-      "Worked on a large refactor of the applications ingestion engine that allows users to input financial data in one format and map that to another format, reporting back any mapping or validation errors; a project which also involved front to back work. On the back end I redesigned the ingestion process to increase flexibility and testability. And on the front end myself and a colleague refreshed the UI to give it a more modernised feel as well as bringing in NGRX to handle the complex state management that was needed."
+      "Core Responsibility: Developed new features for the Rosetta Core Editor, a DSL editor with an Angular front end and a Java back end. The UI, based on the Monaco editor, enables users to edit custom domain models in the Rune modeling language, supporting financial regulation.",
+      "Core Responsibility: Regularly contributed to the open-source Rune DSL FINOS project, an XText-based language that parses Rune syntax and generates code in multiple target languages, including Java, Python, and TypeScript. Rune forms the backbone of the Rosetta Editor, enabling real-time modeling, type creation, and function execution.",
+      "Notable Project: Led a back-end project to decouple the DSL code generator from model versions, implementing it as a standalone OS process. This solution eliminated the need for DSL backward compatibility by linking specific DSL versions to model versions. The new architecture improved performance, reduced resource consumption, and increased flexibility.",
+      "Notable Project: Developed the CDM Object Builder, a FINOS open-source utility tool for dynamically generating Common Domain Model (CDM) objects through a visual UI builder. The tool enables users to navigate the CDM by starting at a root type and traversing its nodes to visually construct objects within the interface. It streamlines the creation and review of CDM objects, promoting standardization and efficiency in financial modeling."
     ],
     "range": "September 2019 - Present"
   },
