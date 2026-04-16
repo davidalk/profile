@@ -1,7 +1,7 @@
 baseURL = "https://alkanani.dev/"
 languageCode = "en-gb"
 title = "David Al-Kanani Profile"
-theme = "hugo-resume"
+theme = ["github.com/eddiewebb/hugo-resume"]
 publishDir = "docs"
 
 [params]
@@ -13,17 +13,22 @@ publishDir = "docs"
     description = "Profile for David Al-Kanani"
     favicon = "favicon.ico"
 
-    # what sections to display.  Setting to false disables navigation and section.
+    showQr = false
+    showContact = false
+    showSocializations = true
+
+    sections = ["skills", "experience", "education"]
+
     showSkills = true
     showProjects = false
     showOpenSource = false
     showPublications = false
     showExperience = true
     showEducation = true
-    showQr = false
+    showCertifications = false
+    showBoards = false
 
-    # do you want to show git hash on page footer and link to repo? Add commit URl for repo here.
-    # gitCommitPrefix = "https://github.com/YOURNAME/REPONAME/commit/"
+    gitCommitPrefix = "https://github.com/davidalk/profile/commit/"
 
 
 [[params.handles]]
@@ -35,7 +40,7 @@ publishDir = "docs"
     link = "https://www.linkedin.com/in/david-al-kanani-48aa73/"
 
 [params.google.analytics]
-    trackerID = "xxx"
+    trackerID = ""
 
-[outputs] #only required for search
+[outputs]
     home = ["HTML", "JSON"]

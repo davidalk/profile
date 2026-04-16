@@ -1,0 +1,27 @@
+.list-social-icons a:hover {
+  color: #3C7A89;
+}
+
+.list-icons .list-inline-item i:hover {
+  color: #3C7A89;
+}
+
+.bg-primary {
+  background-color: #3C7A89 !important;
+}
+
+.text-primary {
+  color: #3C7A89 !important;
+}
+
+a {
+  color: #3C7A89;
+}
+
+a:hover, a:focus, a:active {
+  color: #2E4756;
+}
+
+.resume-section blockquote {
+    border-left-color: #3C7A89;
+}
