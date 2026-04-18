@@ -83,7 +83,7 @@
                 <span class="text-primary">Al-Kanani</span>
               </h1>
               <div class="subheading mb-5">London, UK ·
-                <a href="mailto:david-remove-.alkanani@gmail.com">david<span style="display:none">-remove-</span>.alkanani@gmail.com</a>
+                <a id="email-link">Mail me</a>
               </div>
 
             </div>
@@ -125,6 +125,11 @@
         </div>
       </div>
     </section>
+    <script>
+      const user = "david.alkanani";
+      const domain = "gmail.com";
+      document.getElementById("email-link").href = `mailto:${user}@${domain}`;
+    </script>
 
    
    
