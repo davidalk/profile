@@ -2,7 +2,7 @@
   {
     "grouping": "Java",
     "skills": [
-      "JUNIT",
+      "Junit",
       "Mockito",
       "Spring",
       "Concurrency",
@@ -17,7 +17,7 @@
       "JavaScript",
       "TypeScript",
       "Angular",
-      "REACT",
+      "React",
       "D3",
       "ag-grid",
       "SASS",
@@ -33,9 +33,9 @@
       "Google Cloud",
       "Terraform",
       "Linux",
-      "NodeJS",
+      "Node.js",
       "Jetty",
-      "NginX",
+      "Nginx",
       "Docker",
       "Kubernetes"
     ]
