@@ -10,7 +10,7 @@ My name’s David, and I’m currently a Senior Developer at Regnosys, a fintech
 
 I’ve been developing professionally since 2004, but my passion for programming and technology goes back to when I was a child. At 8 years old, my parents bought me a BASIC programming book, and I began experimenting with computers at school, which sparked my lifelong interest in tech.
 
-Throughout my career, I’ve gained broad experience across both front-end and back-end technologies, often shifting focus across different parts of the stack. I thrive at quickly picking up new tech and adding value in a variety of environments.
+Throughout my career, I’ve gained broad experience across both front-end and back-end technologies, often shifting focus across different parts of the stack. I’m comfortable quickly picking up new technologies and delivering value across a variety of environments.
 
 I also have a strong interest in the infrastructure that supports our software. I believe effective software architecture and infrastructure are crucial to successful development. Having experience in both front and back end, I’m often the bridge between specialists in cross-functional teams.
 
