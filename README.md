@@ -52,13 +52,25 @@ This project uses the canonical Hugo approach for theme customizations: override
 
 If you need to modify theme behavior:
 
-1. **For layout/template changes**: Copy the relevant file from `themes/hugo-resume/layouts/` to the corresponding location in your project's `layouts/` directory. Your version will override the theme version.
+1. **For layout/template changes**: Find the theme files in your Go module cache and copy them to `layouts/`. To locate the theme:
+   ```bash
+   find $(go env GOMODCACHE)/github.com/eddiewebb -path "*/layouts/*" -name "*.html"
+   ```
+   Copy the relevant file to the corresponding location in `layouts/` — your version will override the theme version.
 
 2. **For styling changes**: Add CSS rules to `static/css/resume-override.css`. This file loads after the theme's CSS, so your rules will take precedence.
 
 3. **For data format changes**: The theme originally used deprecated `hugo.Data` which has been fixed to use `.Site.Data`. If the theme updates and breaks data access again, modify the templates in `layouts/partials/portfolio/` to match the expected data format.
 
 ### Theme Structure Reference
+
+The theme's layouts live in the Go module cache. View the structure with:
+
+```bash
+find $(go env GOMODCACHE)/github.com/eddiewebb/hugo-resume* -type f -not -path "*/.*" | head -30
+```
+
+The theme's layout tree mirrors a standard Hugo project:
 
 ```
 themes/hugo-resume/
