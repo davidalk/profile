@@ -27,6 +27,10 @@
     ]
   },
   {
+    "grouping": "AI Tools",
+    "skills": ["Claude Code", "OpenAI Codex", "Junie"]
+  },
+  {
     "grouping": "Platforms & Infrastructure",
     "skills": [
       "Amazon AWS",
@@ -56,10 +60,6 @@
   {
     "grouping": "Secondary Languages",
     "skills": ["Python", "SQL", "Shell Scripting"]
-  },
-  {
-    "grouping": "AI Tools",
-    "skills": ["Claude Code", "OpenAI Codex", "Junie"]
   },
   {
     "grouping": "Further Learning Projects and Courses",
