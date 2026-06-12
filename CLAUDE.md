@@ -24,8 +24,8 @@ hugo
 # Update theme to latest
 hugo mod get -u github.com/eddiewebb/hugo-resume
 
-# Locate theme source files in Go module cache
-find $(go env GOMODCACHE)/github.com/eddiewebb/hugo-resume* -type f -not -path "*/.*"
+# Locate theme source files in Hugo's module cache (macOS path)
+find ~/Library/Caches/hugo_cache -path "*/eddiewebb/hugo-resume*" -type f -not -path "*/.*"
 ```
 
 ## Architecture
@@ -42,7 +42,7 @@ Content is driven by three JSON data files — not Markdown content pages:
 
 ## Customizations (overriding the theme)
 
-The theme is pulled from the Go module cache; it is never edited directly. All customizations use Hugo's override mechanism — local files shadow theme files at the same relative path:
+The theme is pulled from Hugo's module cache (`~/Library/Caches/hugo_cache` on macOS); it is never edited directly. All customizations use Hugo's override mechanism — local files shadow theme files at the same relative path:
 
 | File | What it overrides |
 |------|-------------------|
@@ -53,6 +53,6 @@ The theme is pulled from the Go module cache; it is never edited directly. All c
 | `layouts/partials/portfolio/education.html` | Education with `notes` bullet support |
 | `static/css/resume-override.css` | Custom styling (primary color `#3C7A89`) |
 
-To override a new theme file: copy it from the Go module cache to the matching path under `layouts/` or `static/`.
+To override a new theme file: copy it from Hugo's module cache to the matching path under `layouts/` or `static/`.
 
 The theme originally used the deprecated `hugo.Data` API. Local partials use `.Site.Data` instead — if the theme updates and breaks data access, check the portfolio partials first.

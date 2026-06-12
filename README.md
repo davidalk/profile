@@ -52,9 +52,9 @@ This project uses the canonical Hugo approach for theme customizations: override
 
 If you need to modify theme behavior:
 
-1. **For layout/template changes**: Find the theme files in your Go module cache and copy them to `layouts/`. To locate the theme:
+1. **For layout/template changes**: Find the theme files in Hugo's module cache and copy them to `layouts/`. To locate the theme:
    ```bash
-   find $(go env GOMODCACHE)/github.com/eddiewebb -path "*/layouts/*" -name "*.html"
+   find ~/Library/Caches/hugo_cache -path "*/eddiewebb/hugo-resume*/layouts/*" -name "*.html"
    ```
    Copy the relevant file to the corresponding location in `layouts/` — your version will override the theme version.
 
@@ -64,10 +64,10 @@ If you need to modify theme behavior:
 
 ### Theme Structure Reference
 
-The theme's layouts live in the Go module cache. View the structure with:
+The theme's layouts live in Hugo's module cache (`~/Library/Caches/hugo_cache` on macOS). View the structure with:
 
 ```bash
-find $(go env GOMODCACHE)/github.com/eddiewebb/hugo-resume* -type f -not -path "*/.*" | head -30
+find ~/Library/Caches/hugo_cache -path "*/eddiewebb/hugo-resume*" -type f -not -path "*/.*" | head -30
 ```
 
 The theme's layout tree mirrors a standard Hugo project:
