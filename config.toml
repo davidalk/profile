@@ -40,8 +40,5 @@ publishDir = "docs"
     name = "LinkedIn"
     link = "https://www.linkedin.com/in/david-al-kanani-48aa73/"
 
-[params.google.analytics]
-    trackerID = ""
-
 [outputs]
     home = ["HTML", "JSON"]

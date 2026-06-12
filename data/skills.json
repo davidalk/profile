@@ -43,7 +43,7 @@
 
   {
     "grouping": "SCM & Code Quality",
-    "skills": ["Git", "Subversion", "Crucible", "JIRA"]
+    "skills": ["Git", "Subversion", "JIRA"]
   },
   {
     "grouping": "Continuous integration",
@@ -56,6 +56,10 @@
   {
     "grouping": "Secondary Languages",
     "skills": ["Python", "SQL", "Shell Scripting"]
+  },
+  {
+    "grouping": "AI Tools",
+    "skills": ["Claude Code", "OpenAI Codex", "Junie"]
   },
   {
     "grouping": "Further Learning Projects and Courses",

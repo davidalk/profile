@@ -7,7 +7,6 @@
         <h3 class="mb-0">{{ .school | markdownify }}</h3>
         <div class="subheading mb-3">{{ .degree }}</div>
         <div>{{ .major | markdownify }}</div>
-        <p>
           {{ if eq (printf "%T" .notes) "[]interface {}" }}
           <ul class="resume-bullet-list">
             {{ range .notes }}
@@ -15,9 +14,8 @@
             {{ end }}
           </ul>
           {{ else }}
-          {{ .notes | markdownify }}
+          <p>{{ .notes | markdownify }}</p>
           {{ end }}
-        </p>
       </div>
       <div class="resume-date text-md-right">
         <span class="text-primary">{{ .range }}</span>
