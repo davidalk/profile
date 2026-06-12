@@ -4,8 +4,8 @@
         "degree":"Master of Science",
         "major":"Applied Computing Technologies",
         "notes":[
-            "An advanced computing course for technology graduates.",  
-            "Dissertation involved an investigation into the viability of data communication through covert channels.  The study involved the creation and implementation of sender and receiver applications.  These applications communicated through a firewall using a covert channel, thereby bypassing traditional network security without detection."
+            "An advanced postgraduate programme in applied computing for technology professionals.",
+            "Dissertation: Investigation into the viability of data communication through covert channels. The study involved building sender and receiver applications that communicated through a firewall using a covert channel, thereby bypassing firewall based network security controls without detection."
         ],
         "range":"2002 - 2003"
     },
@@ -13,7 +13,7 @@
         "school":"Sussex University",
         "degree":"Bachelor of Arts",
         "major":"Artificial Intelligence",
-        "notes":["Graduated with 2:2 honours"],
+        "notes":["Dissertation: built an asynchronous random boolean network to model gene regulatory networks."],
         "range":"1999 - 2002"
     }
 ]
