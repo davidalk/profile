@@ -48,11 +48,11 @@ The theme is pulled from Hugo's module cache (`~/Library/Caches/hugo_cache` on m
 |------|-------------------|
 | `layouts/index.html` | Homepage section rendering loop |
 | `layouts/partials/about.html` | About/header partial |
-| `layouts/partials/portfolio/skills.html` | Skills section (fixed `.Site.Data` access) |
+| `layouts/partials/portfolio/skills.html` | Skills section (`hugo.Data` access) |
 | `layouts/partials/portfolio/experience.html` | Experience with `notes` bullet support |
 | `layouts/partials/portfolio/education.html` | Education with `notes` bullet support |
 | `static/css/resume-override.css` | Custom styling (primary color `#3C7A89`) |
 
 To override a new theme file: copy it from Hugo's module cache to the matching path under `layouts/` or `static/`.
 
-The theme originally used the deprecated `hugo.Data` API. Local partials use `.Site.Data` instead — if the theme updates and breaks data access, check the portfolio partials first.
+Local partials use `hugo.Data` (the current API as of Hugo v0.156.0+). If data access breaks after a theme update, check the portfolio partials first.

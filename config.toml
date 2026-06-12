@@ -1,5 +1,5 @@
 baseURL = "https://alkanani.dev/"
-languageCode = "en-gb"
+locale = "en-gb"
 title = "David Al-Kanani Profile"
 theme = ["github.com/eddiewebb/hugo-resume"]
 publishDir = "docs"
