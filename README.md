@@ -10,7 +10,7 @@ This is a website generator project for my personal profile website. This genera
 
 ## Develop
 
-Start server using `hugo server -D` to run in draft mode.
+Start server using `hugo server -D -M` to run in draft mode with in-memory rendering (avoids polluting `docs/` with localhost URLs).
 
 ## Deploy
 

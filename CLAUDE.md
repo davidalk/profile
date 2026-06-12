@@ -12,8 +12,8 @@ Personal profile website for David Al-Kanani, built with [Hugo](https://gohugo.i
 # Install theme dependencies
 hugo mod tidy
 
-# Run dev server (with drafts)
-hugo server -D
+# Run dev server (with drafts, renders to memory — keeps docs/ clean)
+hugo server -D -M
 
 # Build the site (output to docs/)
 hugo
