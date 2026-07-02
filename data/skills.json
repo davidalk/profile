@@ -2,12 +2,12 @@
   {
     "grouping": "Java",
     "skills": [
+      {"name": "Java 21", "icon": "java"},
+      "Memory Analysis",
       "Junit",
       "Mockito",
-      "Spring",
       "Concurrency",
       "JDBC",
-      "JMS",
       "Maven"
     ]
   },
@@ -18,7 +18,6 @@
       "TypeScript",
       "Angular",
       "React",
-      "D3",
       "ag-grid",
       "SASS",
       "CSS3",
@@ -28,16 +27,23 @@
   },
   {
     "grouping": "AI Assisted Development",
-    "skills": ["Claude Code", "Junie", "MCP", "Custom Claude Plugins", "Agent Skills"]
+    "skills": [
+      {"name": "Claude Code", "iconImg": "img/skills/claude.svg"},
+      {"name": "Junie", "iconImg": "img/skills/junie.svg"},
+      "MCP",
+      "Custom Claude Plugins",
+      "Agent Skills"
+    ]
   },
   {
     "grouping": "Platforms & Infrastructure",
     "skills": [
-      "Amazon AWS",
-      "Google Cloud",
+      {"name": "Amazon AWS", "icon": "amazonwebservices"},
+      {"name": "Google Cloud", "icon":  "googlecloud"},
       "Terraform",
       "Linux",
-      "Node.js",
+      {"name": "Node.js", "icon":  "nodejs"},
+      "Dropwizard",
       "Jetty",
       "Nginx",
       "Docker",
@@ -59,7 +65,7 @@
   },
   {
     "grouping": "Secondary Languages",
-    "skills": ["Python", "SQL", "Shell Scripting"]
+    "skills": ["Python", "SQL", {"name": "Shell Scripting", "icon": "bash"}]
   },
   {
     "grouping": "Further Learning Projects and Courses",

@@ -12,15 +12,20 @@
                     {{ if isset . "icon" }}
                         {{ $iconname = .icon }}
                     {{ end }}
+                    {{ $icon := printf `<i class="devicon-%s-plain"></i>` (lower $iconname) }}
+                    {{ if isset . "iconImg" }}
+                        {{ $iconURL := .iconImg | relURL }}
+                        {{ $icon = printf `<span class="skill-icon" style="-webkit-mask-image:url('%s');mask-image:url('%s')" role="img" aria-label="%s"></span>` $iconURL $iconURL (htmlEscape $name) }}
+                    {{ end }}
                     {{ if isset . "link" }}
                         {{ $link := .link }}
                         <li class="list-inline-item">
-                          <i class="{{ printf "devicon-%s-plain" (lower $iconname) }}"></i>
+                          {{ $icon | safeHTML }}
                           <a href="{{ $link }}">{{ $name }}</a>
                         </li>
                     {{ else }}
                         <li class="list-inline-item">
-                          <i class="{{ printf "devicon-%s-plain" (lower $iconname) }}"></i>
+                          {{ $icon | safeHTML }}
                           {{ $name }}
                         </li>
                     {{ end }}
