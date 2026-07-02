@@ -28,7 +28,7 @@
   },
   {
     "grouping": "AI Tools",
-    "skills": ["Claude Code", "OpenAI Codex", "Junie"]
+    "skills": ["Claude Code", "Junie", "MCP", "Custom Claude Plugins", "Agent Skills"]
   },
   {
     "grouping": "Platforms & Infrastructure",
