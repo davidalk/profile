@@ -25,3 +25,19 @@ a:hover, a:focus, a:active {
 .resume-section blockquote {
     border-left-color: #3C7A89;
 }
+
+.skill-icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-mode: alpha;
+  mask-mode: alpha;
+}
