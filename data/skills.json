@@ -27,7 +27,7 @@
     ]
   },
   {
-    "grouping": "AI Tools",
+    "grouping": "AI Assisted Development",
     "skills": ["Claude Code", "Junie", "MCP", "Custom Claude Plugins", "Agent Skills"]
   },
   {
