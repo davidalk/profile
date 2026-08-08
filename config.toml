@@ -2,7 +2,6 @@ baseURL = "https://alkanani.dev/"
 locale = "en-gb"
 title = "David Al-Kanani Profile"
 theme = ["github.com/eddiewebb/hugo-resume"]
-publishDir = "docs"
 
 [params]
     firstName = "David"
