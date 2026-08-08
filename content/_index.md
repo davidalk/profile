@@ -1,5 +1,5 @@
 ---
-title: "David Al-Kanani"
+title: "Senior Engineer, London"
 date: 2019-04-07T18:59:43+01:00
 draft: false
 ---

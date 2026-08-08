@@ -4,7 +4,7 @@
     "skills": [
       {"name": "Java 21", "icon": "java"},
       "Memory Analysis",
-      "Junit",
+      "JUnit",
       "Mockito",
       "Concurrency",
       "JDBC",
@@ -18,7 +18,7 @@
       "TypeScript",
       "Angular",
       "React",
-      "ag-grid",
+      "AG Grid",
       "SASS",
       "CSS3",
       "HTML5",

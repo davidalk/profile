@@ -46,7 +46,7 @@ The theme is pulled from Hugo's module cache (`~/Library/Caches/hugo_cache` on m
 
 | File | What it overrides |
 |------|-------------------|
-| `layouts/_default/baseof.html` | Base template. Intended delta vs the theme: removes the footer section (the "tech tag lists" credit link and the git-commit line). After a theme update, re-copy the theme's version and re-apply that change |
+| `layouts/_default/baseof.html` | Base template. Intended deltas vs the theme: removes the footer section (the "tech tag lists" credit link and the git-commit line), pins the devicon CDN stylesheet to a fixed version instead of `@latest`, and adds a canonical link plus JSON-LD Person schema (driven by `params.jobTitle`/`params.employer`; deliberately omits email to preserve the obfuscation). After a theme update, re-copy the theme's version and re-apply those changes |
 | `layouts/index.html` | Homepage section rendering loop |
 | `layouts/partials/about.html` | About/header partial |
 | `layouts/partials/portfolio/skills.html` | Skills section (`hugo.Data` access) |

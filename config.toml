@@ -1,16 +1,18 @@
 baseURL = "https://alkanani.dev/"
-locale = "en-gb"
-title = "David Al-Kanani Profile"
+languageCode = "en-gb"
+title = "David Al-Kanani"
 theme = ["github.com/eddiewebb/hugo-resume"]
 
 [params]
     firstName = "David"
     lastName = "Al-Kanani"
+    jobTitle = "Senior Engineer"
+    employer = "Regnosys"
     address = "London, UK"
     profileImage = "img/totoro.png"
     emailUser = "david.alkanani"
     emailHost = "gmail.com"
-    description = "Profile for David Al-Kanani"
+    description = "David Al-Kanani — Senior Engineer in London with over 20 years' experience across fintech, ad tech and investment banking. Java, TypeScript, Angular, AWS, and AI-assisted development."
     favicon = "favicon.ico"
 
     showQr = false
@@ -18,16 +20,6 @@ theme = ["github.com/eddiewebb/hugo-resume"]
     showSocializations = true
 
     sections = ["skills", "experience", "education"]
-
-    showSkills = true
-    showProjects = false
-    showOpenSource = false
-    showPublications = false
-    showExperience = true
-    showEducation = true
-    showCertifications = false
-    showBoards = false
-
 
 [[params.handles]]
     name = "GitHub"
