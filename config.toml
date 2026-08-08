@@ -29,8 +29,6 @@ publishDir = "docs"
     showCertifications = false
     showBoards = false
 
-    gitCommitPrefix = "https://github.com/davidalk/profile/commit/"
-
 
 [[params.handles]]
     name = "GitHub"

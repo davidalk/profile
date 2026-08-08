@@ -42,7 +42,9 @@ This project uses the canonical Hugo approach for theme customizations: override
 
 | Location | Purpose |
 |----------|---------|
+| `layouts/_default/baseof.html` | Base template — identical to the theme's except it removes the footer section (credit link and git-commit line). After a theme update, re-copy and re-apply that change |
 | `layouts/index.html` | Home page template with dynamic section rendering |
+| `layouts/partials/about.html` | About/header section |
 | `layouts/partials/portfolio/skills.html` | Skills section with fixed data access |
 | `layouts/partials/portfolio/experience.html` | Experience section with bullet-point notes support |
 | `layouts/partials/portfolio/education.html` | Education section with bullet-point notes support |
