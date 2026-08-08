@@ -10,16 +10,13 @@ This is a website generator project for my personal profile website. This genera
 
 ## Develop
 
-Start server using `hugo server -D -M` to run in draft mode with in-memory rendering (avoids polluting `docs/` with localhost URLs).
+Start server using `hugo server -D -M` to run in draft mode with in-memory rendering.
 
 ## Deploy
 
-Project is served using Github Pages. The generated content is placed in the `docs` folder under the project root which Github Pages will watch and automatically publish when updated.
+The site is served by GitHub Pages and deployed by the GitHub Actions workflow in `.github/workflows/hugo.yml`. On every push to `master` the workflow builds the site with a pinned Hugo version (extended edition) and publishes it via the Pages artifact flow — no generated files are committed to the repository.
 
-To deploy execute the following from the project root:
-```bash
-./deploy.sh
-```
+To deploy, just push to `master`. The custom domain (alkanani.dev) is configured in the repository's Settings → Pages, not in a CNAME file.
 
 ## Theme Management
 

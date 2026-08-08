@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-Personal profile website for David Al-Kanani, built with [Hugo](https://gohugo.io/) using the [hugo-resume](https://github.com/eddiewebb/hugo-resume) theme (managed as a Hugo Module). The site is deployed to GitHub Pages from the `docs/` output directory.
+Personal profile website for David Al-Kanani, built with [Hugo](https://gohugo.io/) using the [hugo-resume](https://github.com/eddiewebb/hugo-resume) theme (managed as a Hugo Module). The site is deployed to GitHub Pages by the GitHub Actions workflow in `.github/workflows/hugo.yml` — every push to `master` builds and publishes it. The workflow pins `HUGO_VERSION`; keep it in sync when upgrading the local Hugo. The custom domain (alkanani.dev) lives in the repo's Settings → Pages, not in a CNAME file.
 
 ## Commands
 
@@ -12,14 +12,14 @@ Personal profile website for David Al-Kanani, built with [Hugo](https://gohugo.i
 # Install theme dependencies
 hugo mod tidy
 
-# Run dev server (with drafts, renders to memory — keeps docs/ clean)
+# Run dev server (with drafts, renders to memory)
 hugo server -D -M
 
-# Build the site (output to docs/)
+# Build the site locally (output to public/, gitignored)
 hugo
 
-# Deploy: builds and pushes to master (requires clean working tree)
-./deploy.sh
+# Deploy: push to master — GitHub Actions builds and publishes
+git push origin master
 
 # Update theme to latest
 hugo mod get -u github.com/eddiewebb/hugo-resume
