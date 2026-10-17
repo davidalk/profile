@@ -9,15 +9,6 @@ Personal profile website for David Al-Kanani, built with [Hugo](https://gohugo.i
 ## Commands
 
 ```bash
-# Install theme dependencies
-hugo mod tidy
-
-# Run dev server (with drafts, renders to memory)
-hugo server -D -M
-
-# Build the site locally (output to public/, gitignored)
-hugo
-
 # Deploy: push to master — GitHub Actions builds and publishes
 git push origin master
 
@@ -30,15 +21,7 @@ find ~/Library/Caches/hugo_cache -path "*/eddiewebb/hugo-resume*" -type f -not -
 
 ## Architecture
 
-Content is driven by three JSON data files — not Markdown content pages:
-
-- `data/skills.json` — grouped skill lists
-- `data/experience.json` — work history with `notes` array for bullet points
-- `data/education.json` — education entries with `notes` array
-
-`config.toml` controls which sections appear via `params.sections = ["skills", "experience", "education"]`. Toggling a section on/off is done here.
-
-`layouts/index.html` iterates `params.sections` and dispatches each to the corresponding partial in `layouts/partials/portfolio/<section>.html`.
+Content comes from the JSON files in `data/`, not Markdown content pages; `params.sections` in `config.toml` toggles which sections appear.
 
 ## Customizations (overriding the theme)
 
@@ -47,12 +30,8 @@ The theme is pulled from Hugo's module cache (`~/Library/Caches/hugo_cache` on m
 | File | What it overrides |
 |------|-------------------|
 | `layouts/_default/baseof.html` | Base template. Intended deltas vs the theme: removes the footer section (the "tech tag lists" credit link and the git-commit line), pins the devicon CDN stylesheet to a fixed version instead of `@latest`, and adds a canonical link plus JSON-LD Person schema (driven by `params.jobTitle`/`params.employer`; deliberately omits email to preserve the obfuscation). After a theme update, re-copy the theme's version and re-apply those changes |
-| `layouts/index.html` | Homepage section rendering loop |
-| `layouts/partials/about.html` | About/header partial |
-| `layouts/partials/portfolio/skills.html` | Skills section (`hugo.Data` access) |
-| `layouts/partials/portfolio/experience.html` | Experience with `notes` bullet support |
-| `layouts/partials/portfolio/education.html` | Education with `notes` bullet support |
-| `static/css/resume-override.css` | Custom styling (primary color `#3C7A89`) |
+
+The other overrides (homepage loop, about partial, portfolio partials, `static/css/resume-override.css`) are visible under `layouts/` and `static/`.
 
 To override a new theme file: copy it from Hugo's module cache to the matching path under `layouts/` or `static/`.
 
