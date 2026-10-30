@@ -12,6 +12,9 @@ Personal profile website for David Al-Kanani, built with [Hugo](https://gohugo.i
 # Deploy: push to master — GitHub Actions builds and publishes
 git push origin master
 
+# Generate a PDF CV from the site's print layout (default: ~/Downloads/david-al-kanani-cv.pdf)
+scripts/build-cv-pdf.sh [output.pdf]
+
 # Update theme to latest
 hugo mod get -u github.com/eddiewebb/hugo-resume
 

@@ -41,3 +41,55 @@ a:hover, a:focus, a:active {
   -webkit-mask-mode: alpha;
   mask-mode: alpha;
 }
+
+/* Print layout: also used by scripts/build-cv-pdf.sh to render the PDF CV */
+@page {
+  margin: 1.5cm;
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  #sideNav {
+    display: none !important;
+  }
+
+  body {
+    padding: 0 !important;
+    font-size: 11pt;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  section.resume-section {
+    min-height: 0 !important;
+    padding: 0 0 1.5rem !important;
+    margin-bottom: 1.5rem;
+  }
+
+  section.resume-section .resume-item .resume-date {
+    min-width: 12rem;
+  }
+
+  .resume-item, li, h2, h3 {
+    break-inside: avoid;
+  }
+
+  h2, h3 {
+    break-after: avoid;
+  }
+
+  .mb-5 {
+    margin-bottom: 1.5rem !important;
+  }
+}
