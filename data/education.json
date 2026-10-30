@@ -13,7 +13,10 @@
         "school":"Sussex University",
         "degree":"Bachelor of Arts",
         "major":"Artificial Intelligence",
-        "notes":["Dissertation: Built an asynchronous random boolean network to model gene regulatory networks."],
+        "notes":[
+            "An interdisciplinary degree combining computing with psychology, linguistics and philosophy, covering symbolic and non-symbolic AI, computer vision and natural language processing, programmed in Java, Prolog, LISP and POP-11.",
+            "Dissertation: Built an asynchronous random boolean network to model gene regulatory networks."
+        ],
         "range":"1999 - 2002"
     }
 ]
