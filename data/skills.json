@@ -28,9 +28,9 @@
   {
     "grouping": "AI Agent Development & AI Assisted Development",
     "skills": [
-      "Google ADK",
-      "Gemini",
-      "Gemini Enterprise Agent Platform (Vertex AI)",
+      {"name": "Google ADK", "iconImg": "img/skills/google.svg"},
+      {"name": "Gemini", "iconImg": "img/skills/gemini.svg"},
+      {"name": "Gemini Enterprise Agent Platform (Vertex AI)", "iconImg": "img/skills/vertexai.svg"},
       {"name": "Claude Code", "iconImg": "img/skills/claude.svg"},
       {"name": "Junie", "iconImg": "img/skills/junie.svg"},
       "MCP",
