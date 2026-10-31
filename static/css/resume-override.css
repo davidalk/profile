@@ -77,11 +77,18 @@ a:hover, a:focus, a:active {
     margin-bottom: 1.5rem;
   }
 
-  section.resume-section .resume-item .resume-date {
-    min-width: 12rem;
+  /* The printable width is below Bootstrap's md breakpoint, so flex-md-row/text-md-right never apply */
+  .resume-item:has(> .resume-date) {
+    flex-direction: row !important;
   }
 
-  .resume-item, li, h2, h3 {
+  section.resume-section .resume-item .resume-date {
+    min-width: 12rem;
+    flex-shrink: 0;
+    text-align: right;
+  }
+
+  li, h2, h3 {
     break-inside: avoid;
   }
 
