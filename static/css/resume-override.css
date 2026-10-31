@@ -96,6 +96,13 @@ a:hover, a:focus, a:active {
     break-after: avoid;
   }
 
+  /* Keep an entry's intro paragraph on the same page as the start of its bullet list */
+  .resume-content .subheading,
+  .resume-content > p:has(+ ul) {
+    break-inside: avoid;
+    break-after: avoid;
+  }
+
   .mb-5 {
     margin-bottom: 1.5rem !important;
   }
