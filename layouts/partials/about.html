@@ -21,7 +21,7 @@
 
         </div>
         <div>
-          {{ .Content }}
+          <div id="intro">{{ .Content }}</div>
           <h3>Connect</h3>
           <ul class="list-inline list-social-icons mb-0">
             {{ range .Site.Params.handles }}
@@ -44,4 +44,8 @@
       document.getElementById("email-link").href = `mailto:${user}@${domain}`;
       // Shown only when printing, i.e. in the PDF CV from scripts/build-cv-pdf.sh
       document.getElementById("email-text").textContent = `${user}@${domain}`;
+      // scripts/build-cv-pdf.sh --no-intro loads the page with ?no-intro to leave out the intro text
+      if (new URLSearchParams(location.search).has("no-intro")) {
+        document.getElementById("intro").remove();
+      }
     </script>
